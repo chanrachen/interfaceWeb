@@ -1,0 +1,273 @@
+*{
+    font-family: "Poppins", sans-serif;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    width: 100%;
+    
+    
+}
+.container_right{
+    display: flex;
+    width: 200px;
+    flex-direction: column;
+    gap: 15px;
+    padding: 15px;
+    color: aliceblue;
+    background-color: rgb(37, 12, 56);
+}
+.container_right .logo{
+    display: flex;
+    
+}
+.container_right .logo img{
+    display: flex;
+    height: 40px;
+    margin-left: 10px;
+    flex-wrap: wrap;
+}
+.container_right .first-brach{
+    display: flex;
+    font-size: 10px;
+    margin-left: 10px;
+    
+}
+.container_right .manu{
+    display: flex;
+    font-size: 10px;
+    margin-left: 15px;
+    
+    
+}
+.container_right .manu .two-manu{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.container_right .manu .two-manu i{
+    font-size: 20px;
+}
+.container_right .user-pr{
+    display: flex;
+    font-size: 9px;
+    margin-left: 15px;
+    
+}
+.container_right .user-manag{
+    display: flex;
+    
+    margin-left: 15px;
+    font-size: 10px;
+}
+.container_right .user-manag .two-user-manag{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.container_right .user-manag .two-user-manag i{
+    font-size: 16px;
+    align-items: center;
+}
+.container_right .group{
+    display: flex;
+    font-size: 10px;
+    margin-left: 15px;
+}
+.container_right .group .two-group{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.container_right .group .two-group i{
+    font-size: 16px;
+}
+
+.container_right .user-mobile{
+    display: flex;
+    font-size: 10px;
+    margin-left: 15px;
+
+}
+.container_right .user-mobile .two-user-mobile{
+    margin-left: 4px;
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+.container_right .user-mobile .two-user-mobile i{
+    font-size: 17px;
+}
+.container_left{
+    width: 100%;
+    background-color: rgba(47, 47, 47, 0.069);
+}
+.container_left .container_left-label{
+    display: flex;
+    color: aliceblue;
+    flex-wrap: wrap;
+    background-color: rgba(165, 42, 42, 0.661);
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+}
+.container_left .container_left-label .right-manu{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.container_left .container_left-label .right-manu img{
+    height: 23px;
+    width: 23px;
+    display: flex;
+    justify-content: center;
+}
+.container_left .container_left-label .right-manu i{
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+}
+.container_left .back-detail{
+    padding: 10px;
+    display: flex;
+    font-size: 10px;
+    font-weight: bold;
+    gap: 5px;
+}
+.container_left .back-detail i{
+    color: rgba(77, 79, 83, 0.419);
+}
+.container_left .container-3box{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.container_left .container-3box .container-3box-contr{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px; 
+}
+.container_left .container-3box .container-3box-contr .box1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: rgba(126, 15, 230, 0.102);
+    padding: 20px;
+    font-size: 10px;
+    border-radius: 5px;
+}
+.container_left .container-big{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.container_left .container-big .container-big-contr{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    gap: 10px; 
+    display: flex;
+    flex-direction: column;
+}
+.container_left .container-big .container-big-contr .title-4{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(103, 102, 101);
+}
+.container_left .container-big .container-big-contr .select{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+.container_left .container-big .container-big-contr .select .select-left{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.container_left .container-big .container-big-contr .select .select-left .box1{
+    display: flex;
+    gap: 45px;
+    padding: 7px;
+    color: rgba(0, 0, 0, 0.455);
+    border: 1px solid rgba(0, 0, 0, 0.227);
+    border-radius: 10px;
+    font-size: 10px;
+}
+.container_left .container-big .container-big-contr .select .select-left .box2{
+    display: flex;
+    gap: 5px;
+    padding: 7px;
+    color: rgba(0, 0, 0, 0.455);
+    border: 1px solid rgba(0, 0, 0, 0.227);
+    border-radius: 10px;
+    font-size: 10px;
+}
+.container_left .container-big .container-big-contr .select .select-right .box2{
+    display: flex;
+    gap: 5px;
+    width: 150px;
+    padding: 7px;
+    color: rgba(0, 0, 0, 0.455);
+    border: 1px solid rgba(0, 0, 0, 0.227);
+    border-radius: 10px;
+    font-size: 10px;
+}
+.container_left .container-big .container-big-contr .title-sale{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    font-weight: bold;
+    font-size: 10px;
+}
+.container_left .container-big .container-big-contr .title-sale #red{
+    color: rgb(229, 2, 2);
+}
+.container_left .container-big .container-big-contr .container-7box{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(180px,1fr));
+    gap: 5px;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+}
+.container_left .container-big .container-big-contr .container-7box .box-1{
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    padding: 5px;
+    height: 60px;
+    width: 170px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border: 1px solid rgba(0, 0, 0, 0.273);
+}
+.container_left .container-big .container-big-contr .container-7box .box-1 #left{
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.547);
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+.container_left .container-big .container-big-contr .container-7box .box-1 #left #ss {
+    color: rgba(46, 155, 16, 0.521);
+}
+.container_left .container-big .container-big-contr .container-7box .box-1 #right .material-symbols-outlined{
+    color: rgb(239, 172, 4);
+    font-size: 12px;
+    margin-right: 5px;
+}
